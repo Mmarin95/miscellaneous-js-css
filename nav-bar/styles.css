@@ -18,7 +18,7 @@ body {
 
 .brand-name {
   font-size: 1.5rem;
-  margin-left: 20px;
+  margin: 0.5rem;
 }
 
 .main-nav {
@@ -54,8 +54,8 @@ body {
   display: none;
   flex-direction: column;
   justify-content: space-between;
-  height: 30px;
-  width: 40px;
+  height: 22px;
+  width: 30px;
 }
 
 .burger-button .burger-bar {
@@ -76,7 +76,7 @@ body {
   }
 
   .main-nav {
-    /* display: none; */
+    display: none;
     width: 100%;
   }
 
@@ -90,7 +90,7 @@ body {
   }
 
   .main-nav ul li a {
-    padding: 0.5rem 1rem;
+    padding: .5rem 1rem;
   }
 
   .main-nav.active {
