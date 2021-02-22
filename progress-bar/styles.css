@@ -50,3 +50,7 @@ body {
 
   padding: 1em;
 }
+
+.progress-bar.active::before {
+  justify-content: center;
+}
